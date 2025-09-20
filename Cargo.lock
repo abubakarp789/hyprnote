@@ -17306,7 +17306,6 @@ version = "0.15.0"
 source = "git+https://github.com/tazz4843/whisper-rs.git?rev=0c509ec#0c509ec9c5d4e1d49d83e80bfe8a9060dfaca79b"
 dependencies = [
  "libc",
- "tracing",
  "whisper-rs-sys",
 ]
 
