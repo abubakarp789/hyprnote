@@ -1,8 +1,5 @@
-[env]
-MACOSX_DEPLOYMENT_TARGET = { value = "14.2", force = true }
+[net]
+git-fetch-with-cli = true
 
-[target.'cfg(all(windows, target_env = "msvc"))']
-rustflags = [
-  "-C",
-  "target-feature=-crt-static",
-]
+[http]
+check-revoke = false
